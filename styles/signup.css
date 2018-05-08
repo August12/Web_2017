@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'raleway-t';
+    src: url("fonts/raleway_thin-webfont.ttf");
+  }
+  @font-face {
+    font-family: 'raleway-r';
+    src: url("fonts/Raleway-Regular.ttf");
+  }
+  @font-face {
+    font-family: 'raleway-m';
+    src: url("fonts/Raleway-Medium.ttf");
+  }
+  @font-face {
+    font-family: 'raleway-sb';
+    src: url("fonts/Raleway-SemiBold.ttf");
+  }
+  /*------------------------page1 home------------------------*/
+
+  /*home-message*/
+
+  .signup_box{
+    /* font-family: 'raleway-r',sans-serif; */
+    height: auto;
+    float: right;
+    margin-top: 7%;
+    margin-right: 10%;
+    width:600px;
+    padding: 30px 30px 75px 70px;
+    background-color: RGBA(255,255,255,0.6);
+  }
+
+  .signup_box h1{
+    color: white;
+  }
+
+  .signup_box input {
+    font-family: 'raleway-r',sans-serif;
+    outline: 0;   
+    border: 0;
+    margin: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+    /*background: #f2f2f2;
+    width: 70%;
+    height: 50px;*/
+  }
+
+  .radio {
+    margin-left: 55px;
+  }
+
+  .btn{
+    margin: auto;
+    align-content: center;
+  }
+  .btn_oc{
+    background-color: #1D2475;
+    border: none;
+    font-size: 14px;
+    color: white;
+    padding: 7px 22px;
+    text-align: center;
+    text-decoration: none;
+  }

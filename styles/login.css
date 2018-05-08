@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'raleway-t';
+    src: url("fonts/raleway_thin-webfont.ttf");
+  }
+  @font-face {
+    font-family: 'raleway-r';
+    src: url("fonts/Raleway-Regular.ttf");
+  }
+  @font-face {
+    font-family: 'raleway-m';
+    src: url("fonts/Raleway-Medium.ttf");
+  }
+  @font-face {
+    font-family: 'raleway-sb';
+    src: url("fonts/Raleway-SemiBold.ttf");
+  }
+  /*------------------------page1 home------------------------*/
+  
+  /*home-message*/
+
+
+  .login_box{
+    /* font-family: 'raleway-r',sans-serif; */
+    height: auto;
+    float: right;
+    border: solid;
+    border-radius: 10%;
+    border-color: brown;
+    margin-top: 100px;
+    margin-right: 10%;
+    width:600px;
+    padding: 30px 30px 75px 70px;
+    background-color: RGBA(255,255,255,0.6);
+  }
+  
+  .login_form input {
+    font-family: 'raleway-r',sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 70%;
+    height: 50px;
+    border: 0;
+    margin: 15px;
+    box-sizing: border-box;
+    font-size: 30px;
+  }
+
+  .login_form p {
+    text-align: center;
+  }
+  
+  #login_btn{
+    font-family: 'raleway-sb',sans-serif;
+    width: 70%;
+    padding: 15px;
+    border-radius: 30px;
+    background-color:#FFDC46;
+    text-align:center;
+    font-size: 25px;
+  }
+  
+  #login_btn:hover{
+    background-color:#757266;
+  
+  }
+
+  #login_btn a:hover{
+    color:#FFDC46;
+  }
+  
+  
